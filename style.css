@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+}
+body {
+    height: 100%; /* Устанавливаем высоту для всего документа */
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+    
+}
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: #FFB62F   ;
+    padding: 40px 33px;
+  position: relative;
+  @media (max-width:533px) {
+    padding: 30px 10px;
+  }
+}
+.Logo {
+background-color:white ;
+padding: 30px 120px;
+color: #424242;
+
+ font-weight: 500;
+ font-size: 36px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ @media (max-width:1027px) {
+    padding: 20px 60px;
+ }
+ @media (max-width:800px) {
+    font-size: 20px;
+    padding: 15px 30px;
+    
+ }
+ @media (max-width:479px) {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+.Hours {
+    background-color:white ;
+padding: 10px 20px;
+color: #424242;
+ font-family: "Montserrat";
+ font-weight: 500;
+ font-size: 36px;
+ border-radius: 23px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ @media (max-width:800px) {
+    font-size: 20px;
+ }
+ .svg {
+    @media (max-width:800px) {
+        width: 20px;
+        height: 20px;
+     }
+ }
+}
+
+.Bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F0;
+    padding: 15px;
+    &>div {
+        height: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 118px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    &>div:first-child {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    &>div:last-child {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .Active {
+        background-color: #FFB62F;
+        color: #FFFFFF;
+
+    }
+    .Disable {
+        background-color: #DBDBDB;
+        color: #424242  ;
+    }
+}
+
+.Main {
+    width: 100%;
+    display: flex;
+    flex-grow: 1; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+padding: 37px 0;
+    gap: 23px;
+   
+}
+
+.privod {
+    width: 355px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width:800px) {
+        width: 100%;
+    }
+    .tires {
+        position: relative;
+        .value {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: white;
+            font-weight: 500;
+            font-size: 28px;
+            background-color: #2E2E2E;
+            border-radius: 8px;
+            padding: 6px 2px;
+            @media (max-width:709px) {
+                font-size: 16px;
+                } 
+        }
+        img {
+            width: 101px;
+            height: 161px;
+            @media (max-width:709px) {
+                width: 70px;
+                height: 100px;
+            } 
+            @media (max-width:517px) {
+                width: 60px;
+                height: 90px;
+            } 
+        }
+    }
+    .podshipnik_left {
+        background-color: #3B3D3D;
+        width: 26px;
+        height: 34px;
+        border-top-right-radius: 2px;
+      
+        
+        ;z-index: -1;
+    
+        border-bottom-right-radius: 2px;
+        @media (max-width:425px) {
+            width: 10px;
+        }
+    }
+    .podshipnik_right {
+        background-color: #3B3D3D;
+        width: 26px;
+        height: 34px;
+        border-top-left-radius: 2px;
+      
+        z-index: -1;
+        @media (max-width:425px) {
+            width: 10px;
+        }
+        border-bottom-left-radius: 2px;
+    }
+    .stick {
+        width: 100px;
+        background-color: #5C5C5C;
+        height: 21px;
+        @media (max-width:553px) {
+            width: 60px;
+        }
+    }
+    .counter {
+        border-radius: 50%;
+        background-color: #EDEDED;
+        width: 45px;
+        height: 45px;
+        color: #828282;
+        font-size: 20px;
+        font-weight: 500;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width:553px) {
+          font-size: 16px;
+          width: 40px;
+          height: 40px;
+        }
+    }
+ 
+}
+.privod2 {
+    width: 755px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width:800px) {
+        width: 100%;
+    }
+    .tires1,.tires2,.tires3,.tires4 {
+        position: relative;
+        .value {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: white;
+            font-weight: 500;
+            font-size: 28px;
+            background-color: #2E2E2E;
+            border-radius: 8px;
+            padding: 6px 2px;
+            @media (max-width:709px) {
+                font-size: 16px;
+                } 
+        }
+        img {
+            width: 101px;
+            height: 161px;
+            @media (max-width:709px) {
+                width: 70px;
+                height: 100px;
+            } 
+            @media (max-width:517px) {
+                width: 60px;
+                height: 90px;
+            } 
+        }
+    }
+    .podshipnik_left {
+        background-color: #3B3D3D;
+        width: 26px;
+        height: 34px;
+        border-top-right-radius: 2px;
+      
+        
+        ;z-index: -1;
+        @media (max-width:425px) {
+            width: 10px;
+        }
+        border-bottom-right-radius: 2px;
+    }
+    .podshipnik_right {
+        background-color: #3B3D3D;
+        width: 26px;
+        height: 34px;
+        border-top-left-radius: 2px;
+        @media (max-width:425px) {
+            width: 10px;
+        }
+        z-index: -1;
+    
+        border-bottom-left-radius: 2px;
+    }
+    .stick {
+        width: 100px;
+        background-color: #5C5C5C;
+        height: 21px;
+        @media (max-width:553px) {
+            width: 60px;
+        }
+    }
+    .stick2 {
+        width: 30px;
+        background-color: #5C5C5C;
+        height: 21px;
+        @media (max-width:425px) {
+            width: 20px;
+        }
+    }
+    .counter {
+        border-radius: 50%;
+        background-color: #EDEDED;
+        width: 45px;
+        height: 45px;
+        color: #828282;
+        font-size: 20px;
+        font-weight: 500;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width:553px) {
+            font-size: 16px;
+            width: 40px;
+            height: 40px;
+          }
+    }
+ 
+}
+.privod3 {
+    width: 755px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width:800px) {
+        width: 100%;
+    }
+    .tires1,.tires2,.tires3,.tires4 {
+        position: relative;
+        .value {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: white;
+            font-weight: 500;
+            font-size: 28px;
+            background-color: #2E2E2E;
+            border-radius: 8px;
+            padding: 6px 2px;
+            @media (max-width:709px) {
+            font-size: 16px;
+            } 
+        }
+        img {
+            width: 101px;
+            height: 161px;
+            @media (max-width:709px) {
+                width: 70px;
+                height: 100px;
+            } 
+            @media (max-width:517px) {
+                width: 60px;
+                height: 90px;
+            }   
+        }
+    }
+    .podshipnik_left {
+        background-color: #3B3D3D;
+        width: 26px;
+        height: 34px;
+        border-top-right-radius: 2px;
+      
+        @media (max-width:425px) {
+            width: 10px;
+        }
+        ;z-index: -1;
+    
+        border-bottom-right-radius: 2px;
+    }
+    .podshipnik_right {
+        background-color: #3B3D3D;
+        width: 26px;
+        height: 34px;
+        border-top-left-radius: 2px;
+        @media (max-width:425px) {
+            width: 10px;
+        }
+        z-index: -1;
+    
+        border-bottom-left-radius: 2px;
+    }
+    .stick {
+        width: 100px;
+        background-color: #5C5C5C;
+        height: 21px;
+        @media (max-width:553px) {
+            width: 60px;
+        }
+    }
+    .stick2 {
+        width: 30px;
+        background-color: #5C5C5C;
+        height: 21px;
+        @media (max-width:425px) {
+            width: 20px;
+        }   
+    }
+    .counter {
+        border-radius: 50%;
+        background-color: #EDEDED;
+        width: 45px;
+        height: 45px;
+        color: #828282;
+        font-size: 20px;
+        font-weight: 500;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width:553px) {
+            font-size: 16px;
+            width: 40px;
+            height: 40px;
+          }
+    }
+ 
+}
+
+
+.counter_yellow {
+    color: white !important;
+    background-color: #FFC23F !important;
+}
+.privod2 .tires1,.tires2,.tires3,.tires4 {
+    display: none !important; 
+}
+.privod2.two-wheels .tires1,
+.privod2.two-wheels .tires4 {
+    display: none !important;
+}
+.privod2.two-wheels .tires2,
+.privod2.two-wheels .tires3 {
+    display: block !important;
+}
+.privod2.two-wheels .stick2 {
+    display: none;
+}
+
+.privod2.four-wheels .tires1,.tires2,.tires3,.tires4 {
+    display: block !important; 
+}
+
+
+.privod3 {
+    display: none; 
+}
+.privod3.show {
+    display: flex; 
+}
+.privod3 .tires1,.tires2,.tires3,.tires4 {
+    display: none !important; 
+}
+.privod3.two-wheels .tires1,
+.privod3.two-wheels .tires4 {
+    display: none !important;
+}
+.privod3.two-wheels .tires2,
+.privod3.two-wheels .tires3 {
+    display: block !important;
+}
+.privod3.two-wheels .stick2 {
+    display: none;
+}
+
+.privod3.four-wheels .tires1,.tires2,.tires3,.tires4 {
+    display: block !important; 
+}
