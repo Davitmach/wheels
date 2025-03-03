@@ -22,6 +22,9 @@ header {
     background-color: #FFB62F   ;
     padding: 40px 33px;
   position: relative;
+  @media (max-height:800px) {
+    padding: 20px 28px !important;
+ }
   @media (max-width:1280px) {
     padding: 35px 28px;
  }
@@ -40,6 +43,10 @@ color: #424242;
  left: 50%;
  top: 50%;
  transform: translateX(-50%) translateY(-50%);
+ @media (max-height:800px) {
+    padding: 20px 48px !important;
+    font-size: 30px;
+ }
  @media (max-width:1280px) {
     padding: 25px 80px;
  }
