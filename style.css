@@ -22,6 +22,9 @@ header {
     background-color: #FFB62F   ;
     padding: 40px 33px;
   position: relative;
+  @media (max-width:1280px) {
+    padding: 35px 28px;
+ }
   @media (max-width:533px) {
     padding: 30px 10px;
   }
@@ -37,6 +40,9 @@ color: #424242;
  left: 50%;
  top: 50%;
  transform: translateX(-50%) translateY(-50%);
+ @media (max-width:1280px) {
+    padding: 25px 80px;
+ }
  @media (max-width:1027px) {
     padding: 20px 60px;
  }
@@ -156,6 +162,7 @@ padding: 37px 0;
                 width: 60px;
                 height: 90px;
             } 
+            
         }
     }
     .podshipnik_left {
