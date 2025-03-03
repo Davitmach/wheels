@@ -8,7 +8,7 @@
 body {
     height: 100%; /* Устанавливаем высоту для всего документа */
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: column;
     
