@@ -72,6 +72,10 @@ color: #424242;
     padding: 10px 20px !important;
     font-size: 13px;
   }
+  @media (max-width:252px) {
+    padding: 5px 10px !important;
+    font-size: 10px;
+  }
 }
 .Hours {
     background-color:white ;
@@ -93,6 +97,7 @@ color: #424242;
  @media (max-height:579px) {
    
     font-size: 13px;
+    padding: 5px 10px;
   }
  .svg {
     @media (max-width:800px) {
@@ -123,6 +128,9 @@ color: #424242;
    
         padding: 10px;
         }
+        @media (max-width:252px) {
+            padding: 5px;
+          }
     &>div {
         height: 39px;
         display: flex;
@@ -135,6 +143,11 @@ color: #424242;
    height: 25px;
    width: 60px;
             }
+            @media (max-width:252px) {
+               width: 50px;
+               height: 20px;
+               font-size: 13px;
+              }
     }
     &>div:first-child {
         border-top-left-radius: 8px;
@@ -199,6 +212,9 @@ padding: 37px 0;
                     @media (max-width:400px) {
                         font-size: 10px ;
                         } 
+                        @media (max-height:479px) {
+                           font-size: 10px;
+                                         }
         }
         img {
             width: 101px;
@@ -219,6 +235,10 @@ padding: 37px 0;
                 width: 40px;
                 height: 60px;
                 } 
+                @media (max-height:479px) {
+                    width: 40px;
+                    height: 60px;
+                                 }
 
         }
     }
@@ -241,6 +261,9 @@ padding: 37px 0;
         @media (max-width:400px) {
           width: 5px;
             } 
+            @media (max-height:479px) {
+                width: 5px;
+                              }
     }
     .podshipnik_right {
         background-color: #3B3D3D;
@@ -258,6 +281,9 @@ padding: 37px 0;
         @media (max-width:400px) {
             width: 5px;
               } 
+              @media (max-height:479px) {
+             width: 5px;
+                              }
         border-bottom-left-radius: 2px;
     }
     .stick {
@@ -273,6 +299,9 @@ padding: 37px 0;
         @media (max-width:400px) {
             width: 30px;
               } 
+              @media (max-height:479px) {
+                width: 30px;
+                              }
     }
     .counter {
         border-radius: 50%;
@@ -301,6 +330,11 @@ padding: 37px 0;
             width: 25px;
             height: 25px;
               } 
+              @media (max-height:479px) {
+                font-size: 13px;
+                width: 25px;
+                height: 25px;
+                              }
     }
  
 }
@@ -334,6 +368,10 @@ padding: 37px 0;
                 @media (max-width:400px) {
                     font-size: 10px;
                     } 
+                    @media (max-height:479px) {
+                        font-size: 10px;
+                       
+                                      }
         }
         img {
             width: 101px;
@@ -354,6 +392,11 @@ padding: 37px 0;
                 width: 40px;
                 height: 60px;
                   } 
+                  @media (max-height:479px) {
+                    width: 40px;
+                    height: 60px;
+                   
+                                  }
         }
     }
     .podshipnik_left {
@@ -373,6 +416,10 @@ padding: 37px 0;
         @media (max-width:400px) {
            width: 5px;
               } 
+              @media (max-height:479px) {
+                width: 5px;
+               
+                              }
         border-bottom-right-radius: 2px;
     }
     .podshipnik_right {
@@ -389,6 +436,10 @@ padding: 37px 0;
         @media (max-width:400px) {
             width: 5px;
         }
+        @media (max-height:479px) {
+          width: 5px;
+           
+                          }
         z-index: -1;
     
         border-bottom-left-radius: 2px;
@@ -406,6 +457,9 @@ padding: 37px 0;
         @media (max-width:400px) {
             width: 30px;
         }
+        @media (max-height:479px) {
+           width: 30px;
+                          }
     }
     .stick2 {
         width: 30px;
@@ -420,6 +474,10 @@ padding: 37px 0;
         @media (max-width:400px) {
             width: 10px;
         }
+        @media (max-height:479px) {
+            width: 10px;
+           
+                          }
     }
     .counter {
         border-radius: 50%;
@@ -448,6 +506,11 @@ padding: 37px 0;
             width: 25px;
             height: 25px;
           }
+          @media (max-height:479px) {
+            font-size: 13px;
+            width: 25px;
+            height: 25px;
+                          }
     }
  
 }
@@ -481,6 +544,10 @@ padding: 37px 0;
             @media (max-width:400px) {
                 font-size: 10px;
                 } 
+                @media (max-height:479px) {
+                    font-size: 10px;
+                   
+                                  }
         }
         img {
             width: 101px;
@@ -501,6 +568,10 @@ padding: 37px 0;
                 width: 40px;
                 height: 60px;
                 }
+                @media (max-height:479px) {
+                    width: 40px;
+                    height: 60px;
+                                  }
         }
     }
     .podshipnik_left {
@@ -518,6 +589,9 @@ padding: 37px 0;
         @media (max-width:400px) {
          width: 5px;
             }
+            @media (max-height:479px) {
+                width: 5px;
+                              }
         ;z-index: -1;
     
         border-bottom-right-radius: 2px;
@@ -536,6 +610,9 @@ padding: 37px 0;
         @media (max-width:400px) {
             width: 5px;
         }
+        @media (max-height:479px) {
+            width: 5px;
+                          }
         z-index: -1;
     
         border-bottom-left-radius: 2px;
@@ -553,6 +630,9 @@ padding: 37px 0;
         @media (max-width:400px) {
             width: 30px;
         }
+        @media (max-height:479px) {
+            width:30px;
+                          }
     }
     .stick2 {
         width: 30px;
@@ -567,6 +647,9 @@ padding: 37px 0;
         @media (max-width:400px) {
             width: 10px;
         }   
+        @media (max-height:479px) {
+            width: 10px;
+                          }
     }
     .counter {
         border-radius: 50%;
@@ -595,6 +678,11 @@ padding: 37px 0;
             width: 25px;
             height: 25px;
           }
+          @media (max-height:479px) {
+            font-size: 13px;
+            width: 25px;
+            height: 25px;
+                          }
     }
  
 }
